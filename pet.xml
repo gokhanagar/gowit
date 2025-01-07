@@ -1,0 +1,10 @@
+<suite name="API Test Suite">
+    <test name="Pet API Tests">
+        <classes>
+            <class name="test.pet.CreatePet" />
+            <class name="test.pet.FindPet" />
+            <class name="test.pet.UpdatePet" />
+            <class name="test.pet.DeletePet" />
+        </classes>
+    </test>
+</suite>
