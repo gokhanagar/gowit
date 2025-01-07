@@ -49,5 +49,4 @@ public class GetUserByUserName extends PetStoreBaseUrl {
         Assert.assertTrue(errorMessage.contains("User not found"));
     }
 
-
 }

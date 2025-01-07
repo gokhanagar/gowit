@@ -38,7 +38,18 @@ public class DeletePet extends PetStoreBaseUrl {
 
         // Do assertions
         Assert.assertEquals(response.getStatusCode(), 404);
+    }
 
+    @Test
+    public void deletePetNegativeTest(){
+
+        int nonExistentPetName = 789123789;
+
+        // Delete request to delete user by username
+        Response response = request.when().delete("/v2/pet/" + nonExistentPetName);
+
+        // Do assertions
+        Assert.assertEquals(response.getStatusCode(), 404);
 
     }
 

@@ -48,7 +48,7 @@ public class CreatePet extends PetStoreBaseUrl {
     }
 
     @Test()
-    public void createPetNegativeTest() throws IOException {
+    public void createPetNegativeTest(){
 
         // POST request to create the pet
         Response response = RestAssured.given()

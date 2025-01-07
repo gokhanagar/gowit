@@ -44,7 +44,7 @@ public class DeleteUser extends PetStoreBaseUrl {
     }
 
     @Test
-    public void deleteUserNegativeTest() throws IOException {
+    public void deleteUserNegativeTest(){
 
         String nonExistentUsername = "nonexistentUser123";
 

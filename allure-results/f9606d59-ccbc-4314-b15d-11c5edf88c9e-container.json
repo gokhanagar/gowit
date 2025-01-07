@@ -1,0 +1,1 @@
+{"uuid":"f9606d59-ccbc-4314-b15d-11c5edf88c9e","name":"baseUrl.PetStoreBaseUrl.setUp","children":["a032c28b-50a2-4d6e-ba17-5dc1dde2207d"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1736240857198,"stop":1736240857664}],"afters":[],"start":1736240857197,"stop":1736240857665}
