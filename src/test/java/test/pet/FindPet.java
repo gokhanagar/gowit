@@ -46,5 +46,4 @@ public class FindPet extends PetStoreBaseUrl {
 
     }
 
-
 }
